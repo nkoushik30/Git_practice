@@ -3,5 +3,6 @@ public class gui {
      
     System.out.println("This is a GUI class.");
        System.out.println("Hello, World!");
+       System.out.println("Welcome to the GUI application.");
     }
 }
