@@ -19,9 +19,6 @@ jobs:
         with:
           node-version: '24.x'
       
-      - name: install dependencies
-        run: npm install
-      
       - name: lint code
         run: |
           npx markdownlint-cli2 "**/*.md"
